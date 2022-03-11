@@ -1,5 +1,5 @@
 {
-  "title": "LikeCoin Block Explorer",
+  "title": "Joltfiy Block Explorer",
   "network": "likecoin-public-testnet-3",
   "icon": "/images/icon.svg",
   "logo": {
@@ -18,11 +18,11 @@
   "votingPowerTokenUnit": "ulike",
   "tokenUnits": {
     "nanoekil": {
-      "display": "ekil",
+      "display": "JOLT",
       "exponent": 9
     },
     "ulike": {
-      "display": "ekil",
+      "display": "JOLT",
       "exponent": 6
     }
   },
