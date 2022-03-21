@@ -1,29 +1,29 @@
 {
   "title": "Joltfiy Block Explorer",
-  "network": "likecoin-public-testnet-3",
+  "network": "joltify-public-testnet-3",
   "icon": "/images/icon.svg",
   "logo": {
     "default": "/images/logo.svg"
   },
   "prefix": {
-    "consensus": "cosmosvalcons",
-    "validator": "cosmosvaloper",
-    "account": "cosmos"
+    "consensus": "joltvalcons",
+    "validator": "joltvaloper",
+    "account": "jolt"
   },
   "genesis": {
     "time": "2021-07-13T08:00:00",
     "height": 1
   },
-  "primaryTokenUnit": "nanoekil",
-  "votingPowerTokenUnit": "ulike",
+  "primaryTokenUnit": "JOLT",
+  "votingPowerTokenUnit": "JOLT",
   "tokenUnits": {
-    "nanoekil": {
+    "JOLT": {
       "display": "JOLT",
-      "exponent": 9
+      "exponent": 18
     },
-    "ulike": {
-      "display": "JOLT",
-      "exponent": 6
+    "JUSD": {
+      "display": "JUSD",
+      "exponent": 18
     }
   },
   "extra": {
