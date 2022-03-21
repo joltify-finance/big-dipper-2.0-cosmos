@@ -35,3 +35,17 @@ class MsgSend {
 }
 
 export default MsgSend;
+
+/*
+{
+	"@type": "/cosmos.bank.v1beta1.MsgSend",
+	"amount": [
+		{
+			"denom": "JUSD",
+			"amount": "5000000000000000000"
+		}
+	],
+	"to_address": "jolt14cq7c25ttv8jar9l6ljnqkl65pk3g830lskfnd",
+	"from_address": "jolt1xdpg5l3pxpyhxqg4ey4krq2pf9d3sphmmuuugg"
+}
+*/

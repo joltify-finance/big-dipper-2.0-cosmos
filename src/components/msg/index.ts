@@ -72,6 +72,8 @@ import RevokeAllowance from './feegrant/revoke_allowance';
 import CreateVestingAccount from './vesting/create_vesting_account';
 import CreatePeriodicVestingAccount from './vesting/create_periodic_vesting_account';
 
+import CreateIssueToken from './joltify/create_issue_token'
+
 export {
   getMessageModelByType,
   getMessageByType,
@@ -140,4 +142,6 @@ export {
   RevokeAllowance,
   CreateVestingAccount,
   CreatePeriodicVestingAccount,
+
+  CreateIssueToken
 };
