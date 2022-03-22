@@ -3,26 +3,17 @@ import Trans from 'next-translate/Trans';
 import { Typography } from '@material-ui/core';
 import { Name } from '@components';
 import { MsgCreateIssueToken } from '@models';
-import { useProfileRecoil } from '@recoil/profiles';
+// import { useProfileRecoil } from '@recoil/profiles';
 import {
-  formatToken, formatNumber,
+  formatToken,
 } from '@utils/format_token';
-import Big from 'big.js'
+// import Big from 'big.js'
 
 const CreateIssueToken = (props: {
   message: MsgCreateIssueToken;
 }) => {
   const { message } = props;
-  
-  const creator = useProfileRecoil(message.creator)
-  const receiver = useProfileRecoil(message.receiver)
-  const parsedAmount = () => {
-    const amount = formatToken(message.coin.amount, message.coin.denom);
-    return `${formatNumber(amount.value, amount.exponent)} ${amount.displayDenom.toUpperCase()}`;
-  }
-
-  const formatedAmount = formatToken(message.coin.amount, message.coin.denom)
-  const index =  message.index
+  const formatedAmount = formatToken(message.coin.amount, message.coin.denom);
 
   return (
     <Typography>
@@ -40,10 +31,10 @@ const CreateIssueToken = (props: {
               address={message.receiver}
               name={message.receiver}
             />
-          )
+          ),
         ]}
         values={{
-          amount: formatedAmount.value + ' ' + formatedAmount.displayDenom,
+          amount: `${formatedAmount.value} ${formatedAmount.displayDenom}`,
         }}
       />
     </Typography>

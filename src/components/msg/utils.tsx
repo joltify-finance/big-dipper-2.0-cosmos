@@ -428,7 +428,7 @@ const getDataByType = (type: string) => {
       content: COMPONENTS.CreateIssueToken,
       tagTheme: 'eight',
       tagDisplay: 'MsgCreateIssueToken',
-    }
+    },
   };
 
   if (defaultTypeToModel[type]) return defaultTypeToModel[type];
