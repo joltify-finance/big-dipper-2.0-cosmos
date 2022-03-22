@@ -423,7 +423,6 @@ const getDataByType = (type: string) => {
       tagTheme: 'eight',
       tagDisplay: 'txChangeIscnRecordOwnershipLabel',
     },
-
     '/joltify.joltifychain.vault.MsgCreateIssueToken': {
       model: MODELS.MsgCreateIssueToken,
       content: COMPONENTS.CreateIssueToken,

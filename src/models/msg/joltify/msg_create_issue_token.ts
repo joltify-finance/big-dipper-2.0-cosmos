@@ -38,16 +38,3 @@ class MsgCreateIssueToken {
 }
 
 export default MsgCreateIssueToken
-
-/*
-{
-	"coin": {
-		"denom": "JUSD",
-		"amount": "6000000000000000000"
-	},
-	"@type": "/joltify.joltifychain.vault.MsgCreateIssueToken",
-	"index": "0xf03e3aa5ec6b7f1a551830a28b92cca3398c9f547c4b47616cae4feba210b800",
-	"creator": "jolt1jzphsa50jp93d3kg2xrk4ch3je00ruyjhr6uj7",
-	"receiver": "jolt14cq7c25ttv8jar9l6ljnqkl65pk3g830lskfnd"
-}
-*/
